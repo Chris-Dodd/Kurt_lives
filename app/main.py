@@ -84,9 +84,6 @@ def move():
 		'move': move,
 		'taunt': taunt
 	}
-def get_food
-
-	
 
 def get_restrictions(head, mySize, walls, snakes, heads, size, op=True):
 
