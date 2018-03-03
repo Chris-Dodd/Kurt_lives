@@ -29,18 +29,18 @@ def start():
 	)
 	
 	print '*******************************************************************\n\
-			*******************************************************************'
+		*******************************************************************'
 	
 	return {
-		'color': '#99FFFF',
-		'taunt': 'Wake up Blake, you\'re a snake',
+		'color': '#FF0000',
+		'taunt': 'Kurt mr kurt',
 		'head_url': headUrl
 	}
 	
 
 @bottle.post('/move')
 def move():
-	taunt = 'Kurt'
+	taunt = 'Kurt the smirt'
 	t1 = time.clock()
 	
 	data = bottle.request.json
@@ -84,7 +84,7 @@ def move():
 		'move': move,
 		'taunt': taunt
 	}
-
+def get_food
 
 	
 
